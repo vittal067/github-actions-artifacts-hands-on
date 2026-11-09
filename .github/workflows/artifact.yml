@@ -23,7 +23,7 @@ jobs:
 
     steps:
     - name: download code
-      uses: actions/dowload@v4
+      uses: actions/download@v4
       with:
          name: hello-artifact
          path: ./artifacts
